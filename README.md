@@ -9,4 +9,10 @@ The Board is a class which stores a 2-D Array of Tiles. Tiles are a struct which
 ### Example:
 The user left clicks on an unrevealed tile. The code recognizes the left click event, tells the board that it has been left clicked, and provides the coordinates of the click. The board checks if the click was in a valid location and updates the conditions of that tile. The board will then be redrawn with the updated information.
 # How to Run
-The game works by downloading all files, including the folders, and running `main.cpp`. You will also have to download [SFML](https://www.sfml-dev.org/download.php).
+- The game works by downloading all files, including the folders, and running `main.cpp`. You will also have to download [SFML](https://www.sfml-dev.org/download.php).
+- If done properly, a window should appear with the minesweeper game inside.
+- Left Click on Tiles to Reveal them and Right Click on Tiles to Flag them.
+- You can also Left Click on:
+  - The Smiley to Restart the Game.
+  - The Debug Mode to Reveal all Mines.
+  - The Preset Board States to Test Proper Functionality.
