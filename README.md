@@ -3,7 +3,7 @@ This application recreates the game Minewsweeper. All of the Logic is implemente
 # How it Works
 The Board is stored as a 2-D Array of Tiles.
 => Tiles are a structure 
-Interaction is processed by: 
+### Interaction is processed by: 
 1) Repeatedly Checking for User Input
 2) Updating the Board State (if Necessary)
 3) Redrawing the Board
