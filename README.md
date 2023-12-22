@@ -11,4 +11,4 @@ The Board is a class which stores a 2-D Array of Tiles. Tiles are a struct which
 ### Example:
 A user Left Clicks on an Unrevealed Tile. The code recognizes the left click event, tells the board that it has been left clicked, and provides the coordinates of the click. The board checks if the click was in a valid location (in this case it was), up
 # How to Run
-The game works by running `main.cpp`
+The game works by downloading all files, including the folders, and running `main.cpp`. You will also have to download [SFML](https://www.sfml-dev.org/download.php)
