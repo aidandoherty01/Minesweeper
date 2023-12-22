@@ -8,5 +8,5 @@ The Board is a class which stores a 2-D Array of Tiles. Tiles are a struct which
 2) Updating the Board State (if Necessary)
 3) Redrawing the Board
 
-- Example:
+### Example:
   - A user Left Clicks on an Unrevealed Tile. The code recognizes the left click event, tells the board that it has been left clicked, and provides the coordinates of the click. The board checks if the click was in a valid location (in this case it was), up
