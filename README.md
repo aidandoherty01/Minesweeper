@@ -1,9 +1,7 @@
 # Minesweeper
 This application recreates the game Minewsweeper. All of the Logic is implemented using the C++ Standard Library and all of the Visuals are implemented using SFML. Features include Random Board Generation, Preloaded Board States, Debugging Mode, and a Bomb Counter. All User Interaction is done through either Left or Right Mouse Clicks.
 # How it Works
-The Board is stored as a 2-D Array of Tiles.
-
-=> Tiles are a structure 
+The Board is a class which stores a 2-D Array of Tiles. Tiles are a struct which has Pointers to its 8 Tile Neighbors (Out of Bounds is a nullptr), and variables to check whether it's a Bomb, Flag, and/or Revealed.
 
 ### Interaction is processed by: 
 1) Repeatedly Checking for User Input
